@@ -9,9 +9,13 @@ import androidx.compose.ui.unit.sp
 // Set of Material typography styles to start with
 val Typography = Typography(
     defaultFontFamily = FontFamily.SansSerif,
+    h1 = TextStyle(
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp,
+    ),
     body1 = TextStyle(
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+        fontSize = 12.sp,
     )
     /* Other default text styles to override
     button = TextStyle(

@@ -3,12 +3,14 @@
 
     <style name="Theme.JetpackComposePlayground" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/black</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
     </style>
 
     <!--splash screen theme  -->
     <style name="Theme.Splash" parent="Theme.SplashScreen">
         <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/black</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/stuff</item>
